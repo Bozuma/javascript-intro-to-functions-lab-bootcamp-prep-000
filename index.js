@@ -8,12 +8,12 @@ function whisper(string) {
 
 function logShout(string) {
    console.log(string.toUppercase)
-   logShout ('HELLO)'
-  
-}
+   logShout ('HELLO')
+  }
 
 function logWhisper(string) {
   console.log(string.toLowerCase)
+  logWhisper ('hello')
 }
 
 function sayHiToGrandma(string) {
@@ -26,4 +26,3 @@ function sayHiToGrandma(string) {
    if (string === "I love you, Grandma.") {
     return "I love you, too."
   }
-}
